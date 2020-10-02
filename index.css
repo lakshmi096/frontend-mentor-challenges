@@ -6,7 +6,7 @@
     padding-bottom: 1rem;
 }
 .link {
-    text-decoration: none;
+    text-decoration: none !important;
     position: relative;
 }
 
