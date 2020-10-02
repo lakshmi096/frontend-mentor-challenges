@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <img class="left__logo" src="./images/logo.svg" />
+        <img class="left_mobileImage" src="./images/hero-mobile.jpg" />
+        <h1>
+          <span>We're</span>
+          <span>coming <br />soon</span>
+        </h1>
+        <p class="left__text">
+          <span>Hello fellow shoppers! We're currently building our new</span>
+          <span
+            >fashion store. Add your email below to stay up-to-date with
+          </span>
+          <span>announcements and our launch deals.</span>
+        </p>
+        <form id="form">
+          <input type="text" id="email" placeholder="Email Address" />
+          <img src="./images/icon-error.svg" class="form__exclamation" />
+          <button class="form__button">
+            <img src="./images/icon-arrow.svg" />
+          </button>
+          <p id="text" class="form__text"></p>
+        </form>
+      </div>
+      <div class="right"></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
